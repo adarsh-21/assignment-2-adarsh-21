@@ -26,8 +26,8 @@ public class MyMain {
             myCircularQueue.enqueue(student);
 
         }
-        System.out.println(" original number of students" + " " + myCircularQueue.getSize());
-        System.out.println("no of students deleted=" + " " + myCircularQueue.remove());
-        System.out.println("NEW SIZE OF THE QUEUE" + " " + (myCircularQueue.getSize() - myCircularQueue.remove()));
+        System.out.println(" Original number of students:" + " " + myCircularQueue.getSize());
+        System.out.println("No of students deleted =" + " " + myCircularQueue.remove());
+        System.out.println("New Size Of Queue:" + " " + (myCircularQueue.getSize() - myCircularQueue.remove()));
     }
 }
