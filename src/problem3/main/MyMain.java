@@ -28,7 +28,7 @@ public class MyMain {
                 queue.show();
                 break;
             default:
-                System.out.println("WRong choice");
+                System.out.println("Wrong choice");
         }
 
     }
