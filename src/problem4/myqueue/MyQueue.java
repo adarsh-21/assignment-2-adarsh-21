@@ -14,7 +14,11 @@ public class MyQueue {
 
     }
 
-    public int getSize(MyQueue queue) {
+    public void setSize(int size) {
+
+        this.size = size;
+
+         public int getSize(MyQueue queue) {
         queue.tmp = queue.front;
         while (queue.tmp != null) {
             ++size;
@@ -24,10 +28,6 @@ public class MyQueue {
         return size;
 
     }
-
-    public void setSize(int size) {
-
-        this.size = size;
 
     }
 
