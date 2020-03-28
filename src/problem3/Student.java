@@ -31,6 +31,4 @@ public class Student {
         System.out.println("Student RollNo." + getRollNo());
         return "";
     }
-
-
 }
